@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.nutri{
+    margin-top: 16px;
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;  
+}
+.nutri:hover{
+    background-color: coral;
+    color: black;
+    transition: all 0.25s;
+    text-align: center;
+}
+
+.artigo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.imagem{
+    align-self: center;
+    width: 500px;
+    height: 300px;
+   
+    
+}
+.subtitulo{
+   text-align: center;
+}
+.categoria{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: blueviolet;
+}
+.categoria:hover{
+    transition: all 0.5s;
+    color: white;
+    background-color: brown;
+}
